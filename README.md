@@ -1,15 +1,15 @@
 # touchy
-a macOS force touchpad + cursor recorder in one app
+a macOS force touchpad + cursor recorder in one app.
+Logs touchpad touch coordinates and screen cursor coordinates.
 
 ## Dependencies
-- should run on all Apple Macintosh computers possessing the MultitouchSupport Framework. 
+- should run on all Apple Macintosh computers with the MultitouchSupport Framework. 
 To check whether your devices has the Multitouch support: check for the presence of
 
   /System/Library/PrivateFrameworks/MultitouchSupport.framework
   
 
-
-- Macs should come with a viable version of Swift pre-installed. To be safe, try Swift 5.0+.
+- Swift 5.0+.
 
 ## Usage
 Click on the toggleable start/stop recording button in the app to begin/stop recording. Close the window to quit the app. Click on the update stats button to see how much space the output files are taking up.
